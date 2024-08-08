@@ -1,0 +1,19 @@
+
+
+public class Sumatoria_For {
+public static void main(String[] args) {
+
+// Inicializar variables
+    int suma = 0;
+
+// Verificar el ingreso de numeros del 1 al 10
+    for ( int n = 1; n <= 10; n++){
+
+// Asignacion acumulador
+    suma = suma + n;
+        }
+
+// Escribir sumatoria
+    System.out.println("***La sumatoria para FOR es; " + suma);
+    }
+}

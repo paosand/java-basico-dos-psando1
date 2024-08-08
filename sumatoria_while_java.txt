@@ -1,0 +1,28 @@
+public class Sumatoria_While {
+public static void main(String[] args) {
+
+// Inicializar variables
+
+    int n = 1;
+    int n1 = 1;
+    int n2 = 2;
+    int suma = 0;
+
+// Verificar el ingreso de numeros del 1 al 10
+
+    while (n < 10) {
+
+// Asignacion contador
+
+    suma = n1 + n2 ;
+
+    n1 = suma;
+    n2 ++;
+    n ++;
+
+  }
+    // Escribir sumatoria
+    System.out.println("***La sumatoria para WHILE es; " + suma);
+}
+
+}
